@@ -85,12 +85,12 @@ footer > p {
 
 .project-card > a {
     display: inline-block;
-    padding 8px 15px;
+    padding: 8px 15px;
     background-color: black;
     color: white;
     border: none;
-    border-radius; 5px;
-    text-decoration; none;
+    border-radius: 5px;
+    text-decoration: none;
     font-weight: bold;
     transition: background-color 0.2 ease;
 }
