@@ -7,28 +7,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+    <header id="Home">
         <h1>Hello, I'm Sean Russell</h1>
         <p>Welcome to my portfolio! I am glad to have you here!</p>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
         <h2>About me</h2>
         <p>I am a software developer with a passion for developing applications and websites. I love coding and started coding in the FNB App Academy 2025!</p>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>Portfolio Website</li>
-            <li>Mom's Taxi App</li>
-            <li>Superhero App</li>
-            <li>Practice App</li>
-        </ul>
+        <div class="projectlist">
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>This is my personal portfolio website where I showcase my projects and skills.</p>
+                    <a href="https://seansportfolio.netlify.app" target:_blank>View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Mom's Taxi App</h3>
+                    <p>This is a simple app calculator that IT Varsity instructed me to create for my assignment.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Superhero App</h3>
+                    <p>This was a app I was instructed to create for the FNB App Academy 2025, for kids to leamr about their favorite superhero</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Practice webs with FNB App Academy</h3>
+                    <p>This are local drive projects that was made for me to practice on during my FNB Academy journey</p>
+                    <a href="#">View Projects</a>
+                </div>
+        </div>
     </section>
 
     <footer>
-        <p>Contact me on: Number:+27 11 563 7889, Email:seanrussell@gmail.com</p>
+        <p>©2025 Sean Russell</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/djy_seannas_/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100056530338869" target="_blank">Facebook</a>
+            <a href="https://github.com/Seannas9912/" target="_blank">GitHub</a>
+        </div>
     </footer>
 </body>
 </html>
